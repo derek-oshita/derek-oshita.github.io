@@ -1,0 +1,79 @@
+/*
+
+
+
+
+
+
+*/
+
+
+
+
+a { 
+    color: white; 
+}
+
+article {
+    margin: 0 auto; 
+    width: 500px; 
+    padding: 20px; 
+}
+
+
+
+
+body {
+    text-align: center; 
+    background-size: cover; 
+    margin: 0 auto; 
+    } 
+
+div {
+        height: 200px;
+        background-size: cover;
+        position: relative;
+        margin: 20px 0 20px 0;
+        border-radius: 12px;
+        max-width: 600px; 
+        max-height: 400px; 
+      }
+
+
+h1 {
+    margin: 40px 0px 20px 0px; 
+}
+
+h2 {
+    margin: -20px 0px 70px 0px; 
+
+}
+      
+img {
+    margin: 40px 0px 0px 0px; 
+    border: 7px solid white; 
+    border-radius: 50%;
+}
+ul {
+        text-align: center; 
+        list-style: inside; 
+        padding: 10px; 
+        background: rgba:(0,0,0,0.5); 
+        color: black; 
+    }
+li {
+        display: inline; 
+        padding: 0px 10px 0px 10px; 
+    }
+
+@media (
+    max-width: 500px){
+h1 {
+    font-size: 36px;
+}
+ul {
+    display: block ; padding: 5px; 
+}
+}
+
+
