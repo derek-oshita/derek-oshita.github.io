@@ -54,6 +54,11 @@ li {
     }
 
 @media (max-width: 500px){ 
+ img {
+    margin: 40px 0px 0px 0px; 
+    border: 7px solid white; 
+    border-radius: 50%;
+}    
 /* body {
     text-align: center;
     display: block;
