@@ -20,9 +20,6 @@ article {
     padding: 20px; 
 }
 
-
-
-
 body {
     text-align: center; 
     background-size: cover; 
@@ -46,7 +43,6 @@ h1 {
 
 h2 {
     margin: -20px 0px 70px 0px; 
-
 }
       
 img {
@@ -54,6 +50,7 @@ img {
     border: 7px solid white; 
     border-radius: 50%;
 }
+
 ul {
         text-align: center; 
         list-style: inside; 
@@ -61,19 +58,43 @@ ul {
         background: rgba:(0,0,0,0.5); 
         color: black; 
     }
+
 li {
         display: inline; 
         padding: 0px 10px 0px 10px; 
     }
 
-@media (
-    max-width: 500px){
+@media (max-width: 500px){  
+body {
+    text-align: center; 
+    background-size: cover; 
+    margin: 0 auto; 
+    } 
 h1 {
-    font-size: 36px;
-}
+    font-size: 30px;
+    margin-top: 20px; 
+    line-height: 40px; 
+    }
+h2 {
+    font-size: 15px; 
+    padding: 7px 0 10px 0; 
+    margin: 0 0 30px 0; 
+    }
+    div {
+    margin: 20px 12px 0 12px ;
+    }
+    p {
+    font-size: 15px; 
+        line-height: 24px; 
+    }
+    small {
+    font-size: 10px; 
+    }
 ul {
-    display: block ; padding: 5px; 
+    display: block ; 
+    padding: 5px; 
 }
+    
 }
 
 
