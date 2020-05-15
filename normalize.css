@@ -52,14 +52,9 @@ li {
         display: inline; 
         padding: 0px 10px 0px 10px; 
     }
-
+/*
 @media (max-width: 500px){ 
- img {
-    margin: 40px 0px 0px 0px; 
-    border: 7px solid white; 
-    border-radius: 50%;
-}    
-/* body {
+body {
     text-align: center;
     display: block;
     position: fixed;
@@ -70,7 +65,7 @@ li {
     -moz-background-size: cover;
     background-attachment: fixed;
     } 
-    */
+    
 h1 {
     font-size: 30px;
     margin-top: 20px; 
@@ -97,5 +92,6 @@ ul {
 }
     
 }
+*/
 
 
