@@ -59,6 +59,8 @@ body {
     background-size: cover; 
     background-repeat: no-repeat; 
     margin: 0 auto; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     } 
 h1 {
     font-size: 30px;
