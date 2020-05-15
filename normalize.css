@@ -63,6 +63,7 @@ body {
     margin: 0 auto; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    background-attachment: fixed;
     } 
 h1 {
     font-size: 30px;
