@@ -53,9 +53,11 @@ li {
         padding: 0px 10px 0px 10px; 
     }
 
-@media (max-width: 500px){  
+@media (max-width: 500px){ 
 body {
-    text-align: center; 
+    text-align: center;
+    display: block;
+    position: fixed;
     background-size: cover; 
     background-repeat: no-repeat; 
     margin: 0 auto; 
