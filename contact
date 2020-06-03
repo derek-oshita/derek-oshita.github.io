@@ -10,6 +10,10 @@
 
     <style>
 
+    a:visited {
+        color: rgba(0, 0, 0, 1)
+    }
+
     .container {
         overflow: hidden;
         background-color: white; 
@@ -103,7 +107,11 @@
             <nav class='navigation'>
              <ul>
                  <li> <a href = "https://derek-oshita.github.io/">Homepage</a> </li> 
-                 <li> <a href= "https://derek-oshita.github.io/projects">Projects</a></li> 
+                 <li> <a href= "https://derek-oshita.github.io/blog">Projects</a></li>
+                 <li> <a href = "https://www.facebook.com/derek.oshita" target="_blank">Facebook</a> </li> 
+                 <li> <a href = "https://derek-oshita.github.io/" target="_blank">Github</a> </li> 
+                 <li> <a href = "https://www.instagram.com/__lugia__/" target="_blank" >Instagram</a> </li> 
+                 <li> <a href= "https://www.linkedin.com/in/doshita/" target="_blank" >LinkedIn</a> </li>
                </ul>
             </nav>
          </div>
@@ -125,12 +133,14 @@
 
     <div class='footer'>
         <nav>
+            <!---
             <ul>
                 <li> <a href = "https://www.facebook.com/derek.oshita" target="_blank">Facebook</a> </li> 
                 <li> <a href = "https://derek-oshita.github.io/" target="_blank">Github</a> </li> 
                 <li> <a href = "https://www.instagram.com/__lugia__/" target="_blank" >Instagram</a> </li> 
                 <li> <a href= "https://www.linkedin.com/in/doshita/" target="_blank" >LinkedIn</a> </li>
               </ul>
+            -->
            </nav>
     </div>
 
