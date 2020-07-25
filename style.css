@@ -81,6 +81,11 @@ MAIN CONTENT
     text-align: center;
 }
 
+/******************************************************************************************************** 
+PROJECT PAGE
+*/
+
+
 .project-headline {
     color: white; 
     font-family: 'Amatic SC', cursive;     
@@ -110,6 +115,52 @@ MAIN CONTENT
 .chisme-container {
     text-align: center;
 }
+
+/******************************************************************************************************** 
+CONTACT PAGE
+*/
+
+.selfie-container {
+    width: 40vw; 
+    position: relative;
+    text-align: center;
+}
+
+.selfie {
+    height: 40vh; 
+    width: 25vw; 
+    border: 2px solid white; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+}
+
+.message-container {
+    width: 40vw; 
+    height: 85vh; 
+    text-align: left; 
+    color: white;
+}
+
+.intro-container {
+    height: 40vh; 
+    padding: 9vh 0; 
+    font-size: 18px; 
+}
+
+.contact-container {
+    height: 40vh; 
+    padding: 17vh 0; 
+    font-size: 18px; 
+}
+
+.contact-link {
+    color: white; 
+}
+
+/******************************************************************************************************** 
+FOOTER
+*/
 
 
 #year {

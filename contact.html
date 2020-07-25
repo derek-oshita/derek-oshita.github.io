@@ -1,149 +1,70 @@
-
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Animate.css CDn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <!-- jQuery CDN -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- JavaScript -->
+  <script defer src="js/app.js"></script>
+  <title>Derek Oshita</title>
+</head>
 
-    <title>Contact - Derek Oshita</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
-    <style>
-
-    a:visited {
-        color: rgba(0, 0, 0, 1)
-    }
-
-    .container {
-        overflow: hidden;
-        background-color: white; 
-    }
-
-    .page {
-        width: 900px; 
-        margin: 0 auto; 
-    }
-
-    .header {
-        background-color: white; 
-        text-align: center; 
-        color: rgba(49, 49, 49, 1); 
-        font-family: 'Raleway', sans-serif;
-        height: 65px; 
-        display: flex;
-        clear: both; 
-        justify-content: center; 
-       
-    }
-
-
-    .navigation {
-        display: flex; 
-        justify-content: center; 
-    }
-
-    .image {
-        height: 750px; 
-        width: 450px; 
-        float: right; 
-    }
-
-    .contact_info {
-        height: 750px; 
-        width: 450px; 
-        float: left; 
-    }
-
-
-   li {
-        display: inline; 
-        color: black; 
-        margin: 85px 0 0 85px; 
-        font-size: 15px ;
-    }
-
-    nav {
-        margin: 25px 0 25px 0; 
-        text-decoration: none;
-    }
-
-    p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px ;
-        color: rgba(49, 49, 49, 1); 
-        text-align: center; 
-    }
-
-    .content {
-       margin: 350px 0 0 0; 
-    }
-
-
-     #derek {
-         height: 550px; 
-         width: 400px; 
-         margin: 100px 0 100px 0; 
-         border: 2px solid rgba(49, 49, 49, 1);
-     }
-
-
-     .footer {
-        background-color: white; 
-        text-align: center; 
-        color: rgba(49, 49, 49, 1); 
-        font-family: 'Raleway', sans-serif;
-        height: 65px; 
-        clear: both; 
-        display: flex; 
-        justify-content: center;
-     }
-        </style>
-
-    </head>
-
-<body> 
-
-        <div class='header'> 
-            <nav class='navigation'>
-             <ul>
-                 <li> <a href = "https://derek-oshita.github.io/">Homepage</a> </li> 
-                 <li> <a href= "https://derek-oshita.github.io/projects.html">Projects</a></li>
-                 <li> <a href = "https://www.facebook.com/derek.oshita" target="_blank">Facebook</a> </li> 
-                 <li> <a href = "https://github.com/derek-oshita" target="_blank">Github</a> </li> 
-                 <li> <a href = "https://www.instagram.com/__lugia__/" target="_blank" >Instagram</a> </li> 
-                 <li> <a href= "https://www.linkedin.com/in/doshita/" target="_blank" >LinkedIn</a> </li>
-               </ul>
-            </nav>
-         </div>
-
-    <div class='container'> 
-    <div class='page'>
-        <div class='image'>
-            <img id='derek' src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/s960x960/101687050_3201195493253385_4352052350576230400_o.jpg?_nc_cat=102&_nc_sid=e007fa&_nc_ohc=wF6WdWdkzv0AX8GEyj3&_nc_ht=scontent-sjc3-1.xx&_nc_tp=7&oh=7ab427a39b97ea77e1403f0c161ee8dc&oe=5EFB9CD8">
+<body>
+  <!-- Main Container -->
+  <div class="main-container">
+    <!-- Header -->
+    <header>
+      <!-- H1 -->
+      <h2 class="animate__animated animate__fadeIn"><strong>DEREK OSHITA</strong></h2>
+      <!-- Nav Container -->
+      <nav class="nav-container">
+        <ul class="nav-list">
+          <li><a class="animate__animated animate__fadeIn" id="contact" href="contact.html">CONTACT</a></li>
+          <li><a class="animate__animated animate__fadeIn" id="projects" href="projects.html">PROJECTS</a></li>
+          <li><a class="animate__animated animate__fadeIn" id="work-experience" href="https://www.linkedin.com/in/doshita/">WORK EXPERIENCE</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Content Container -->
+    <section class="content-container">
+        <!-- Selfie Container -->
+        <div class="selfie-container">
+            <img class="selfie" src="./photos/selfie1.jpg" alt="Selfie">
+            <img class="selfie" src="./photos/selfie2.jpg" alt="Another Selfie">
         </div>
-        <div class='contact_info'>
-            <div class='content'>
-                <p>Derek Satoru Oshita</p>
+        <!-- Message Container -->
+        <div class="message-container">
+            <!-- Intro -->
+            <div class="intro-container">
+                <p>
+                    I am a junior software engineer with a background in SaaS sales. I approach everyday problems with detail, thoughtfulness, and a hint of personality. My passion lies in creating technology that is useful and helps improve the lives of those around me. Being disciplined in improving myself is how I intend on playing my part in making the world an easier place for everyone to live in.
+                </p>
+                <br>
+                <p>
+                    Front-end: HTML5, CSS, JavaScript (ES5/ES6), Python3, jQuery and other JavaScript libraries.
+                </p>
+                <br>
+                <p>
+                    Back-end: MongoDB, Mongoose, Express 
+                </p>
+            </div>
+            <!-- Contact -->
+            <div class="contact-container">
                 <p>oshita.derek@gmail.com</p>
                 <p>702.524.4240</p>
+                <a  href="https://www.linkedin.com/in/doshita/"><p class="contact-link">LinkedIn</p></a>
+                <a  href="https://github.com/derek-oshita"><p class="contact-link">GitHub</p></a>
             </div>
         </div>
-    </div>
-    </div>    
-
-    <div class='footer'>
-        <nav>
-            <!---
-            <ul>
-                <li> <a href = "https://www.facebook.com/derek.oshita" target="_blank">Facebook</a> </li> 
-                <li> <a href = "https://derek-oshita.github.io/" target="_blank">Github</a> </li> 
-                <li> <a href = "https://www.instagram.com/__lugia__/" target="_blank" >Instagram</a> </li> 
-                <li> <a href= "https://www.linkedin.com/in/doshita/" target="_blank" >LinkedIn</a> </li>
-              </ul>
-            -->
-           </nav>
-    </div>
-
-    </body>
-
+    </section>
+  </div>
+</body>
 </html>
