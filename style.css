@@ -1,3 +1,7 @@
+/******************************************************************************************************** 
+LAYOUT 
+*/
+
 * {
     margin: 0; 
     padding: 0; 
@@ -11,6 +15,14 @@
     background-size: cover;  
 }
 
+.divider {
+    width: 7vw; 
+}
+
+/******************************************************************************************************** 
+HEADER 
+*/
+
 header {
     background-color: #f6f6f6;
     background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
@@ -19,6 +31,12 @@ header {
     display: flex; 
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    font-size: 85px; 
+    color: white; 
+    font-family: 'Amatic SC', cursive;                   
 }
 
 h2 {
@@ -48,6 +66,9 @@ a:visited {
     color: black; 
 }
 
+/******************************************************************************************************** 
+MAIN CONTENT
+*/
 
 .content-container {
     height: 90vh; 
@@ -60,12 +81,36 @@ a:visited {
     text-align: center;
 }
 
-h1 {
-    font-size: 85px; 
+.project-headline {
     color: white; 
-    font-family: 'Amatic SC', cursive;
-
+    font-family: 'Amatic SC', cursive;     
+    font-size: 40px; 
+    margin-bottom: 15px;
 }
+
+.portfolio-image {
+    height: 45vh; 
+    width: 20vw; 
+    border: 2px solid white; 
+    border-radius: 5px; 
+}
+
+.portfolio-image:hover {
+    opacity: 0.9; 
+}
+
+.tamagotchi-container {
+    text-align: center;
+}
+
+.shelter-and-chill-container {
+    text-align: center;
+}
+
+.chisme-container {
+    text-align: center;
+}
+
 
 #year {
     font-size: 85px; 
@@ -74,7 +119,9 @@ h1 {
 
 }
 
-/* Media Query */
+/******************************************************************************************************** 
+MEDIA QUERY
+*/
 
 @media only screen and (max-width: 500px){ 
     body {
@@ -112,5 +159,4 @@ h1 {
         display: block ; 
         padding: 5px; 
     }
-        
     }
