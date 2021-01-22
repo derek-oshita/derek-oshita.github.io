@@ -1,21 +1,22 @@
 .contact {
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
-    height: 60vh; 
+    height: 70vh; 
 }
 
 .contact-form {
-    padding-top: 5vh; 
+    padding-top: 7vh;
 }
 
 form {
     display: block; 
     /* max-width: 600px;  */
     max-width: 40vw; 
-    height: 48vh; 
+    height: 57vh; 
     padding: 0 5%; 
     margin: 0 auto; 
     border: 2px solid white; 
+    border-radius: 5px; 
 }
 
 label {
@@ -41,6 +42,7 @@ textarea {
 .form-header {
     /* background-color: red;  */
     text-align: center;
+    padding-top: 2vh; 
 }
 
 
@@ -50,6 +52,7 @@ textarea {
 
 .contact-btn {
     float: right; 
+    max-width: 10vw; 
 }
 
 
