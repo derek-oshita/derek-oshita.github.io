@@ -6,6 +6,7 @@
 
 .contact-form {
     padding-top: 7vh;
+    /* max-height: 60vh;  */
 }
 
 form {
@@ -32,12 +33,15 @@ textarea {
   /* width: 300px;  */
   /* width: 400px;   */
   width: 30vw; 
+  height: 5vh; 
   padding: 10px 15px;
   margin: 0 auto 15px;
   font-size: 18px;
 }
 
-
+textarea {
+    height: 8vh; 
+}
 
 .form-header {
     /* background-color: red;  */
