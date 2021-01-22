@@ -206,20 +206,36 @@
                 <!-- END OF PROJECTS SECTION -->
             </div>
         </section>
-        <!-- CONTACT FORM GOES HERE -->
+        <!-- CONTACT FORM -->
         <div class="contact">
-            <h2 class="contact-message">Need a website?</h2>
             <div class="contact-form">
                 <form action="https://formspree.io/f/maylvdee" method="POST">
-                    <label>
-                        Your email:
-                        <input type="text" name="_replyto">
-                    </label>
-                    <label>
-                        Your message:
-                        <textarea name="message"></textarea>
-                    </label>
-                    <button class="btn btn-secondary js-scroll-trigger" type="submit">Send</button>
+                    <div class="form-header">
+                        <h2 class="contact-message">Need a website?</h2>
+                    </div>
+                    <!-- NAME -->
+                    <div class="form-item">
+                        <label>
+                            Your name:
+                            <input type="text" name="name">
+                        </label>
+                    </div>
+                    <!-- EMAIL -->
+                    <div class="form-item">
+                        <label>
+                            Your email:
+                            <input type="text" name="_replyto">
+                        </label>
+                    </div>
+                    <!-- MESSAGE -->
+                    <div class="form-item">
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                        </label>
+                    </div>
+                    <!-- BUTTON  -->
+                    <button class="btn btn-secondary js-scroll-trigger contact-btn" type="submit">Send</button>
                 </form>
             </div>
         </div>
