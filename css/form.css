@@ -1,3 +1,7 @@
+/***************************************************************************************************************************************
+GENERAL
+*/
+
 .contact {
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
@@ -59,4 +63,30 @@ textarea {
     max-width: 10vw; 
 }
 
+/***************************************************************************************************************************************
+MEDIA QUERY
+*/
 
+/* IPHONE X */
+@media (max-width: 414px) {
+    .contact {
+        height: 50vh; 
+    }
+    .contact-form {
+        padding: 0; 
+    }
+    .contact-btn {
+        max-width: 90vw; 
+        float: right; 
+    }
+    form {
+        margin: 0; 
+        max-width: 100vw; 
+        height: 50vh; 
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 90vw; 
+    }
+}
