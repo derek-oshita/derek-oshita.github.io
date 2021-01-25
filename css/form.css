@@ -90,3 +90,16 @@ MEDIA QUERY
         width: 90vw; 
     }
 }
+
+/* IPHONE 6/7/8 PLUS */
+
+/* @media (max-width: 375px) {
+    .contact {
+        height: 58vh; 
+    }
+    form {
+        margin: 0; 
+        max-width: 100vw; 
+        height: 58vh; 
+    }
+} */

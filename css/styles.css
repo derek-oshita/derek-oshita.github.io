@@ -232,6 +232,10 @@ button {
   border-radius: 0;
 }
 
+#lets-talk {
+  margin-bottom: 10vh; 
+}
+
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
